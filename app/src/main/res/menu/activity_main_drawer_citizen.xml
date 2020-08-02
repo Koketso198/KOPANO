@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_news_letter"
+            android:icon="@drawable/ic_action_newsletter"
+            android:title="News Letter" />
+
+        <item
+            android:id="@+id/nav_my_request"
+            android:icon="@drawable/ic_action_my_request"
+            android:title="My Requests" />
+
+        <item
+            android:id="@+id/nav_citizen_accepted_request"
+            android:icon="@drawable/ic_action_accepted_requests"
+            android:title="Accepted Requests"/>
+
+    </group>
+
+</menu>

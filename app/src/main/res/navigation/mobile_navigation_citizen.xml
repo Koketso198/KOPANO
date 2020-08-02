@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_citizen"
+    app:startDestination="@+id/nav_news_letter">
+
+    <fragment
+        android:id="@+id/nav_news_letter"
+        android:name="com.girl.code.hackathon.kopano.fragments.NewsLetter"
+        android:label="News Letter"
+        tools:layout="@layout/fragment_news_letter"/>
+
+
+    <fragment
+        android:id="@+id/nav_my_request"
+        android:name="com.girl.code.hackathon.kopano.fragments.CitizenRequests"
+        android:label="Requests"
+        tools:layout="@layout/fragment_citizen_requests" />
+
+    <fragment
+        android:id="@+id/nav_citizen_accepted_request"
+        android:name="com.girl.code.hackathon.kopano.fragments.CitizenAcceptedRequests"
+        android:label="Accepted Requests"
+        tools:layout="@layout/fragment_accepted_requests"/>
+
+</navigation>
